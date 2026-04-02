@@ -48,5 +48,3 @@ Open `http://localhost:8000`
 1. **Add Student**: Enter name and roll number, click "Add Student"
 2. **Edit Student**: Click "Edit" button next to a student
 3. **Delete Student**: Click "Delete" button to remove
-
----
