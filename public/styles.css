@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 32px;
+  letter-spacing: 1px;
+  font-size: 2.5rem;
+}
+
+
+form {
+  max-width: 500px;
+  margin: 24px auto 32px auto;
+  padding: 24px 28px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  padding: 24px 28px 32px 28px;
+  margin-bottom: 32px;
+}
+
+.students-section {
+  max-width: 600px;
+  margin: 0 auto 32px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  padding: 24px 28px 32px 28px;
+}
+
+#studentsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#studentsList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9f9fc;
+  margin-bottom: 12px;
+  padding: 14px 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+  transition: box-shadow 0.2s;
+}
+
+#studentsList li:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+}
+
+.student-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #222;
+}
+
+#studentsList button {
+  width: auto;
+  padding: 7px 16px;
+  margin-left: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+#studentsList button:first-of-type {
+  background: #ffc107;
+  color: #222;
+}
+
+#studentsList button:first-of-type:hover {
+  background: #e0a800;
+}
+
+#studentsList button:last-of-type {
+  background: #dc3545;
+  color: #fff;
+}
+
+#studentsList button:last-of-type:hover {
+  background: #b52a37;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
