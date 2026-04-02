@@ -50,5 +50,3 @@ Open `http://localhost:8000`
 3. **Delete Student**: Click "Delete" button to remove
 
 ---
-
-Made with ❤️
